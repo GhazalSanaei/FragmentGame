@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnWidth="100dp"
+        android:gravity="center"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="24dp"
+        android:horizontalSpacing="10dp"
+        android:id="@+id/gridView"/>
+ <!--   <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout1">
+
+        <RelativeLayout
+            android:id="@+id/circle1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/circle_blue" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/circle2"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/circle_green" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/circle3"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/circle_red" />
+
+        </RelativeLayout>
+    </GridView>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/circle4"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/circle_yellow" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/circle5"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/circle_orange" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/square1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/square_blue" />
+
+        </RelativeLayout>
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/square2"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/square_red" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/square3"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/square_green" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/square4"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/square_yellow" />
+
+        </RelativeLayout>
+    </GridLayout>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/square5"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/square_orange" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rectangle1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/rectangle_blue" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/rectangle_blue" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rectangle2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/rectangle_red" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/rectangle_red" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/rectangle3"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/rectangle_green" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/rectangle_green" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rectangle4"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/rectangle_yellow" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/rectangle_yellow" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rectangle5"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/rectangle_orange" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/rectangle_orange" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </GridLayout>-->
+</LinearLayout>
